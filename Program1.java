@@ -9,7 +9,9 @@ public class Program1 {
         int int2 = scan.nextInt();
         int int3 = scan.nextInt();
         //print out the values entered
-        System.out.println("You entered: " + int1 + ", " + int2 + " and " + int3);
+        // System.out.println("You entered: " + int1 + " and " + int2);
+        int multiply = int1 * int2;
+        System.out.println("\n" + multiply);
         scan.close();
     }
 }
